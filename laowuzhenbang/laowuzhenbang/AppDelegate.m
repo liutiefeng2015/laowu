@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.sajlkjdeasld
+    // Override point for customization after application 同客人同意launch.sajlkjdeasld
     return YES;
 }
 
