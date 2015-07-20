@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		F79E34111B5CD24100C4EF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F79E34101B5CD24100C4EF10 /* main.m */; };
 		F79E34141B5CD24100C4EF10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79E34131B5CD24100C4EF10 /* AppDelegate.m */; };
-		F79E34171B5CD24100C4EF10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79E34161B5CD24100C4EF10 /* ViewController.m */; };
 		F79E341A1B5CD24100C4EF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79E34181B5CD24100C4EF10 /* Main.storyboard */; };
 		F79E341C1B5CD24200C4EF10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79E341B1B5CD24200C4EF10 /* Images.xcassets */; };
 		F79E341F1B5CD24200C4EF10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79E341D1B5CD24200C4EF10 /* LaunchScreen.xib */; };
 		F79E342B1B5CD24200C4EF10 /* laowuzhenbangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F79E342A1B5CD24200C4EF10 /* laowuzhenbangTests.m */; };
+		F79E34361B5CD8D200C4EF10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79E34351B5CD8D200C4EF10 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		F79E34101B5CD24100C4EF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F79E34121B5CD24100C4EF10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F79E34131B5CD24100C4EF10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F79E34151B5CD24100C4EF10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F79E34161B5CD24100C4EF10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F79E34191B5CD24100C4EF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F79E341B1B5CD24200C4EF10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F79E341E1B5CD24200C4EF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F79E34241B5CD24200C4EF10 /* laowuzhenbangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laowuzhenbangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79E34291B5CD24200C4EF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F79E342A1B5CD24200C4EF10 /* laowuzhenbangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laowuzhenbangTests.m; sourceTree = "<group>"; };
+		F79E34341B5CD8D200C4EF10 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F79E34351B5CD8D200C4EF10 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				F79E34121B5CD24100C4EF10 /* AppDelegate.h */,
 				F79E34131B5CD24100C4EF10 /* AppDelegate.m */,
-				F79E34151B5CD24100C4EF10 /* ViewController.h */,
-				F79E34161B5CD24100C4EF10 /* ViewController.m */,
+				F79E34341B5CD8D200C4EF10 /* ViewController.h */,
+				F79E34351B5CD8D200C4EF10 /* ViewController.m */,
 				F79E34181B5CD24100C4EF10 /* Main.storyboard */,
 				F79E341B1B5CD24200C4EF10 /* Images.xcassets */,
 				F79E341D1B5CD24200C4EF10 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F79E34171B5CD24100C4EF10 /* ViewController.m in Sources */,
+				F79E34361B5CD8D200C4EF10 /* ViewController.m in Sources */,
 				F79E34141B5CD24100C4EF10 /* AppDelegate.m in Sources */,
 				F79E34111B5CD24100C4EF10 /* main.m in Sources */,
 			);
